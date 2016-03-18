@@ -48,7 +48,7 @@ class GroceryItem extends React.Component {
   render() {
 
     var style = {
-      'font-weight': this.state.done ? 'bold' : 'normal'
+      'fontWeight': this.state.done ? 'bold' : 'normal'
     };
 
     return (
